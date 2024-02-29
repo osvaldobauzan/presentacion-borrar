@@ -1,0 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/heavywood');
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    font-family: 'HEAVYwood', sans-serif;
+    background-color: whitesmoke;
+    color: #16161d;
+}
+
+.card {
+    background-color: #d7d5d2;
+    position: relative;
+    width: 270px;
+    height: 410px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px 20px 60px #848383, -20px -20px 60px #ffffff;
+  }
+
+  .button {
+    color: #090909;
+    padding: 0.2em 1em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
